@@ -7,6 +7,9 @@ All notable changes to this extension will be documented in this file following 
 ### Added
 - VS Code debug configuration (`.vscode/launch.json` and `tasks.json`) so contributors can press F5 to launch an Extension Development Host with the `tsc -watch` build task.
 
+### Changed
+- Upgraded ESLint to v9 and typescript-eslint to v8, migrated to flat config (`eslint.config.mjs`), and bumped `minimatch` to ^9.0.9.
+
 ## [0.3.2] - 2026-05-14
 
 ### Changed
