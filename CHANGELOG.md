@@ -2,7 +2,7 @@
 
 All notable changes to this extension will be documented in this file following the structure inspired by [Keep a Changelog](https://keepachangelog.com/).
 
-## [Unreleased]
+## [0.3.3] - 2026-05-14
 
 ### Added
 - VS Code debug configuration (`.vscode/launch.json` and `tasks.json`) so contributors can press F5 to launch an Extension Development Host with the `tsc -watch` build task.
