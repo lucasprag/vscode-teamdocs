@@ -2,6 +2,11 @@
 
 All notable changes to this extension will be documented in this file following the structure inspired by [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.3.2] - 2026-05-14
+
+### Changed
+- Rewrote the README to more clearly describe the extension's features, supported Markdown extensions, commands, and settings. Added a "Getting started" section and refreshed screenshots.
+
 ## [0.3.1] - 2026-05-14
 
 ### Changed
