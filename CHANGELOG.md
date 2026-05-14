@@ -2,6 +2,11 @@
 
 All notable changes to this extension will be documented in this file following the structure inspired by [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.3.1] - 2026-05-14
+
+### Changed
+- Updated repository URL after renaming the GitHub repo to `vscode-teamdocs`.
+
 ## [0.3.0] - 2024-04-05
 
 ### Added
