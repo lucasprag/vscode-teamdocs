@@ -2,6 +2,12 @@
 
 All notable changes to this extension will be documented in this file following the structure inspired by [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.3.6] - 2026-05-14
+
+### Fixed
+- Removed invalid `pnpm` input from publish workflow (not supported by `HaaLeo/publish-vscode-extension@v2`).
+- Updated `engines.vscode` to `^1.120.0` to match `@types/vscode` version.
+
 ## [0.3.5] - 2026-05-14
 
 ### Changed
