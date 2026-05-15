@@ -2,6 +2,13 @@
 
 All notable changes to this extension will be documented in this file following the structure inspired by [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.3.5] - 2026-05-14
+
+### Changed
+- Bumped minimatch from 9.0.9 to 10.2.5.
+- Updated dev dependencies (TypeScript, ESLint, and related packages).
+- Added `node` to tsconfig types to resolve missing Node.js globals.
+
 ## [0.3.4] - 2026-05-14
 
 ### Changed

@@ -2,7 +2,7 @@
   "name": "teamdocs",
   "displayName": "TeamDocs",
   "description": "Your team's Markdown documentation, one click away in the Activity Bar — searchable from any project, no context switching.",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "publisher": "lucasprag",
   "homepage": "https://github.com/lucasprag/vscode-teamdocs/blob/main/README.md",
   "repository": {
