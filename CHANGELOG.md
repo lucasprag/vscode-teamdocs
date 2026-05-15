@@ -2,6 +2,12 @@
 
 All notable changes to this extension will be documented in this file following the structure inspired by [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.3.4] - 2026-05-14
+
+### Changed
+- Migrated from yarn to pnpm.
+- Added GitHub Actions workflow to publish to VS Code Marketplace and Open VSX on release.
+
 ## [0.3.3] - 2026-05-14
 
 ### Added
