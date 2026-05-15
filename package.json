@@ -99,7 +99,7 @@
     "typescript-eslint": "^8.59.3"
   },
   "dependencies": {
-    "minimatch": "^9.0.9"
+    "minimatch": "^10.2.5"
   },
   "resolutions": {
     "flatted": "^3.4.2"
