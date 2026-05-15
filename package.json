@@ -90,12 +90,12 @@
     "lint": "eslint src"
   },
   "devDependencies": {
-    "@types/node": "^18.19.130",
-    "@types/vscode": "^1.86.0",
+    "@types/node": "^25.8.0",
+    "@types/vscode": "^1.120.0",
     "@typescript-eslint/eslint-plugin": "^8.16.0",
     "@typescript-eslint/parser": "^8.16.0",
-    "eslint": "^9.16.0",
-    "typescript": "^5.2.2",
+    "eslint": "^10.3.0",
+    "typescript": "^6.0.3",
     "typescript-eslint": "^8.59.3"
   },
   "dependencies": {
