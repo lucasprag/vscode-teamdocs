@@ -83,10 +83,10 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "yarn run compile",
+    "vscode:prepublish": "pnpm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "pretest": "yarn run compile && yarn run lint",
+    "pretest": "pnpm run compile && pnpm run lint",
     "lint": "eslint src"
   },
   "devDependencies": {
@@ -103,5 +103,6 @@
   },
   "resolutions": {
     "flatted": "^3.4.2"
-  }
+  },
+  "packageManager": "pnpm@11.1.2"
 }
