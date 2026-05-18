@@ -83,10 +83,10 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "pnpm run compile",
+    "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "pretest": "pnpm run compile && pnpm run lint",
+    "pretest": "npm run compile && npm run lint",
     "lint": "eslint src"
   },
   "devDependencies": {
@@ -101,8 +101,7 @@
   "dependencies": {
     "minimatch": "^10.2.5"
   },
-  "resolutions": {
+  "overrides": {
     "flatted": "^3.4.2"
-  },
-  "packageManager": "pnpm@11.1.2"
+  }
 }
