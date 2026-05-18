@@ -2,6 +2,12 @@
 
 All notable changes to this extension will be documented in this file following the structure inspired by [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.3.7] - 2026-05-18
+
+### Fixed
+- Migrated from pnpm to npm with `ignore-scripts=true` in `.npmrc`.
+- Fixed support email to `lucasprag.projects@gmail.com`.
+
 ## [0.3.6] - 2026-05-14
 
 ### Fixed
