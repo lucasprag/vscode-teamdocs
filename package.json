@@ -90,13 +90,13 @@
     "lint": "eslint src"
   },
   "devDependencies": {
-    "@types/node": "^25.8.0",
-    "@types/vscode": "^1.120.0",
-    "@typescript-eslint/eslint-plugin": "^8.16.0",
-    "@typescript-eslint/parser": "^8.16.0",
-    "eslint": "^10.3.0",
+    "@types/node": "^25.9.3",
+    "@types/vscode": "^1.125.0",
+    "@typescript-eslint/eslint-plugin": "^8.61.1",
+    "@typescript-eslint/parser": "^8.61.1",
+    "eslint": "^10.5.0",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.59.3"
+    "typescript-eslint": "^8.61.1"
   },
   "dependencies": {
     "minimatch": "^10.2.5"
