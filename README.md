@@ -50,6 +50,7 @@ TeamDocs reads from a single, globally configured docs folder — so the same do
 | --- | --- |
 | `Team Docs: Search` | Fuzzy-find and open a file from your docs folder. |
 | `Team Docs: Open Settings` | Jump straight to the TeamDocs configuration. |
+| `Team Docs: Leave a Review` | Open the review page on the VS Code Marketplace or Open VSX. |
 
 ## Extension Settings
 
@@ -67,6 +68,19 @@ TeamDocs also honors your VS Code `files.exclude` setting to filter what shows u
 2. Clone or point to a folder containing your team's Markdown documentation.
 3. Open VS Code settings and set `teamdocs.path_to_docs_folder` to that folder (e.g. `~/Docs/engineering`).
 4. Click the **Team Docs** icon in the Activity Bar — your docs are now available in every project.
+
+## Free to use — powered by your reviews
+
+**TeamDocs is free.** It's MIT-licensed, fully functional out of the box, with no feature gating, no license keys, and nothing to buy — now or later.
+
+There is one thing that genuinely helps: **a review**. Marketplace ratings are how small extensions get discovered, and they cost you nothing but a minute.
+
+- [Rate on the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=lucasprag.teamdocs&ssr=false#review-details)
+- [Rate on Open VSX](https://open-vsx.org/extension/lucasprag/teamdocs/reviews)
+
+You can also run **`Team Docs: Leave a Review`** from the command palette at any time.
+
+After 14 days of use a single, non-modal notification asks for a review. It shows up at most a few times, and rating or dismissing it stops it for good. If the extension isn't useful to you, dismiss it and keep using it for free — nothing changes either way.
 
 ## Check out my other extensions
 

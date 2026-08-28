@@ -33,6 +33,10 @@
         "command": "teamDocs.search",
         "title": "Team Docs: Search",
         "icon": "$(search)"
+      },
+      {
+        "command": "teamDocs.review.rate",
+        "title": "Team Docs: Leave a Review"
       }
     ],
     "menus": {

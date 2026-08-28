@@ -1,8 +1,19 @@
 import * as vscode from "vscode";
 import { TeamDocsExplorerProvider } from "./explorer";
 import { getRootPath, getExcludePatterns, isMarkdownFile } from "./util";
+import { ReviewManager } from "./review";
 
 export function activate(context: vscode.ExtensionContext) {
+  const review = new ReviewManager(context, {
+    extensionId: "lucasprag.teamdocs",
+    extensionName: "TeamDocs",
+    commandPrefix: "teamDocs.review",
+    gracePeriodDays: 14,
+    reminderIntervalDays: 30,
+  });
+
+  void review.initialize();
+
   const provider = new TeamDocsExplorerProvider();
 
   vscode.window.registerTreeDataProvider("teamdocs", provider);
