@@ -2,6 +2,15 @@
 
 All notable changes to this extension will be documented in this file following the structure inspired by [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.3.8] - 2026-08-28
+
+### Fixed
+- TeamDocs could not activate on any install since 0.3.4, failing immediately with `Cannot find module 'minimatch'`. The publish workflow packages the extension without `node_modules`, but the build did not bundle dependencies, so `minimatch` was never shipped. The extension is now bundled with esbuild, which inlines it.
+
+### Added
+- `Team Docs: Leave a Review` command.
+- A prompt asking for a marketplace review after 14 days of use. It is a non-modal notification, appears at most three times, and stops permanently once you rate or dismiss it. Nothing in TeamDocs is gated — it is free and always will be.
+
 ## [0.3.7] - 2026-05-18
 
 ### Fixed
